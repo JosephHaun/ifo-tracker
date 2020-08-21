@@ -26,8 +26,8 @@ function GenerateNewMap(AxesHandle, Latitude, Longitude)
 %lat = [48.8708  51.5188   41.9260 40.4312   52.523   37.982];
 %lon = [2.4131  -0.1300    12.4951 -3.6788    13.415   23.715];
 
-
-APIKey = 'AIzaSyDTiAr4EjdhBGGX2tw3I6Obu9vOvfSUK1o';
+%Insert your Google API Key here.
+APIKey = 'AIzaSyDTiAr4EjdhBGGX2tw3I6Obu9vOvfSUK1o'; %Invalid API Key
 
 %Plot points on blank map
 plot(Longitude, Latitude, '.r', 'MarkerSize', 20)
